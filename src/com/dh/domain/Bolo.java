@@ -1,6 +1,13 @@
 package com.dh.domain;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Bolo extends Lanche {
+
+    private final static int TEMPO_PREPARO = 15;
+
+    public final static List<String> CARDAPIO_DE_BOLOS = Arrays.asList("Chocolate","Cenoura com Chocolate");
 
     private String massa;
     private String recheio;

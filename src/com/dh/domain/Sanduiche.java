@@ -1,9 +1,15 @@
 package com.dh.domain;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Sanduiche extends Lanche {
+
+    private final static int TEMPO_PREPARO = 15;
+
+    public final static List<String> INGREDIENTES_DISPONIVEIS =
+            Arrays.asList("Pão", "Queijo", "Presunto", "Ovo", "Carne", "Bacon","Alface","Tomate","Molho");
 
     // private String[] ingredientes = new String[10];
     // Usando ArrayList para maior flexibilidade
